@@ -7,6 +7,7 @@ body{
 
 .contactos{
     width: 20em;
+    background-color: red;
 
 }
 
@@ -20,17 +21,16 @@ body{
 }
 
 .usuario{
-
     display: flex;
     justify-content: space-between;
 }
 
 .perfil{
     display: flex;
-
+    align-items: center;
 }
 
-.maria{
+.nombre{
     text-align: left;
     font-size: 100%;
     font-weight: 600;
@@ -45,8 +45,10 @@ body{
 }
 
 .icon{
-    size: 100px;
     padding: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
 }
 
 
@@ -56,5 +58,16 @@ body{
     margin: 15px;
     display: flex;
     justify-content: space-between;
-    border: 2px solid grey;
+    border: 1px solid grey;
 }
+
+.boton{
+    background-color: #A491d2;
+    color: #fff;
+    margin: 15%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
