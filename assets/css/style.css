@@ -7,12 +7,11 @@ body{
 
 .contactos{
     width: 20em;
-    background-color: red;
+
 
 }
 
 .principal{
-    background-color: green;
     flex-grow: 1;
 }
 
@@ -58,7 +57,6 @@ body{
     margin: 15px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid grey;
 }
 
 .boton{
@@ -71,3 +69,27 @@ body{
     padding-bottom: 10px;
 }
 
+article{
+    border: 1px solid grey;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.principal img{
+    height: 500px;
+    padding-left: 150px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
